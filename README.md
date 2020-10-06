@@ -13,7 +13,7 @@ The results will show the simulated diagram.
 The terminal will show the demand of number of chargers every time, sum of executive time, average executive time, and average demand number of chargers.  
 The Truly_Charger_Point on terminal shows the position chargers.  
   
-data structure of truly charger point:
+data structure of truly charger point:  
 Truly_Charger_Point[x, y, 0, how many sensors covered, the sensor number, list(the sensor be covered), -1]
 
 1. row 68 can modify the quantities of sensors. (N <= 40)  
