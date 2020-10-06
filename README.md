@@ -1,14 +1,17 @@
 # SMRU
+
+## Introduction
 SMRU (Search Most and Remove Useless) is an algorithm for WRSNs (Wireless Rechargeable Sensor Networks).  
 The repo will simulate the WRSNs environment,  
 and implement SMRU algorithm by python3.
 
-# Instruction
+
 The python file will simulate the SMRU algorithm.  
 ```
 python3 SMRU_orginal.py
 ```
 
+## Experiment
 The results will show the simulated diagram.  
 The terminal will show the demand of number of chargers every time, sum of executive time, average executive time, and average demand number of chargers.  
 The Truly_Charger_Point on terminal shows the position chargers.  
