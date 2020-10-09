@@ -26,7 +26,7 @@ Truly_Charger_Point[x, y, 0, how many sensors covered, the sensor number, list(t
 
 SMRU shows:
 
-<img src= width="" height="">
+<img src=https://github.com/neneyhsw/SMRU/blob/main/SMRU_figure.png width="500" height="500">
 
 # Reference
 https://www.mdpi.com/1996-1073/13/10/2661
