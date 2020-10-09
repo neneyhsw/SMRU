@@ -24,8 +24,8 @@ Truly_Charger_Point[x, y, 0, how many sensors covered, the sensor number, list(t
 3. row 138 can set the range of charging.
 4. row 232 can calculate the average performance of SMRU.  
 
-SMRU shows:
-<img src=https://github.com/neneyhsw/SMRU/blob/main/SMRU_figure.png width="500" height="500">
+SMRU shows:  
+<img src=https://github.com/neneyhsw/SMRU/blob/main/SMRU_figure.png width="500" height="500">  
 
 # Reference
 https://www.mdpi.com/1996-1073/13/10/2661
