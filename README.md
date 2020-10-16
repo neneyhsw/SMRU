@@ -20,6 +20,7 @@ data structure of truly charger point:
 Truly_Charger_Point[x, y, 0, how many sensors covered, the sensor number, list(the sensor be covered), -1]  
 Truly_Charger_Point is final chosen positions.  
 You can see the points and diagram to check result.  
+The repository can run many times in loop to calculate the average performances.  
 
 1. row 68 can modify the quantities of sensors. (N <= 40)  
 2. row 137 can set radius of charger.  
