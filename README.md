@@ -24,6 +24,10 @@ Truly_Charger_Point[x, y, 0, how many sensors covered, the sensor number, list(t
 3. row 138 can set the range of charging.
 4. row 232 can calculate the average performance of SMRU.  
 
+SMRU will random position of charger first.  
+Secondly, searching the best point around the random points and choose it.  
+Finally, removing the useless points.  
+
 SMRU shows:  
 <img src=https://github.com/neneyhsw/SMRU/blob/main/SMRU_figure.png width="500" height="500">
 
