@@ -28,7 +28,8 @@ The repository can run many times in loop to calculate the average performances.
 4. row 232 can calculate the average performance of SMRU.  
 
 SMRU will random position of charger first.  
-Secondly, searching the best point around the random points and choose it.  
+Secondly, searching 360 degrees to find the best angle.  
+Comparing to points that under the radius and search 360 degrees to choose the best point.  
 Finally, removing the useless points.  
 
 SMRU shows:  
