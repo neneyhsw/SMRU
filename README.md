@@ -12,6 +12,7 @@ python3 SMRU_orginal.py
 ```
 
 ## Experiment
+### SMRU original
 The results will show the simulated diagram.  
 The terminal will show the demand of number of chargers every time, sum of executive time, average executive time, and average demand number of chargers.  
 The Truly_Charger_Point on terminal shows the position chargers.  
@@ -35,5 +36,12 @@ Finally, removing the useless points.
 SMRU shows:  
 <img src=https://github.com/neneyhsw/SMRU/blob/main/SMRU_figure.png width="500" height="500">
 
-# Reference
+
+### SMRU mobility
+This file compares to influence of mobility, and calculate average time and number of charger.  
+In terminal, you can see the information.  
+In the file, it only run once. You can modify 
+
+
+## Reference
 https://www.mdpi.com/1996-1073/13/10/2661
