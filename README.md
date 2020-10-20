@@ -39,7 +39,7 @@ SMRU shows:
 
 ### SMRU mobility
 This file compares to influence of mobility, and calculate average time and number of charger.  
-In terminal, you can see the information.  
+In terminal, you can see the information about before and after mobility.  
 In the file, it only run once. You can modify row 232 to calculate the average.  
 
 
