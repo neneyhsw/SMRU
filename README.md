@@ -49,6 +49,9 @@ Moreover, we can provide the enough power for sink node by charger.
 Because this method need to satisfy requirement of power of sink nodes,  
 it will add chargers for sink nodes until the requirement of power of sink nodes are enough.  
 
+row 68 can modify the number of sensors.  
+row 72 can modify the location of sink nodes.  
+
 
 ## Reference
 https://www.mdpi.com/1996-1073/13/10/2661
