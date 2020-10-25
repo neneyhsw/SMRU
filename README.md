@@ -40,7 +40,14 @@ SMRU shows:
 ### SMRU mobility
 This file compares to influence of mobility, and calculate average time and number of charger.  
 In terminal, you can see the information about before and after mobility.  
-In the file, it only run once. You can modify row 232 to calculate the average.
+In the file, it only run once. You can modify row 232 to calculate the average.  
+
+
+### SMRU Sink Node
+In SMRU_Sink.py, we can calculate how much power the sink node need.  
+Moreover, we can provide the enough power for sink node by charger.  
+Because this method need to satisfy requirement of power of sink nodes,  
+it will add chargers for sink nodes until the requirement of power of sink nodes are enough.  
 
 
 ## Reference
