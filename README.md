@@ -41,8 +41,8 @@ SMRU shows:
 This file compares to influence of mobility, and calculate average time and number of charger.  
 In terminal, you can see the information about before and after mobility.  
 In the file, it only run once. You can modify row 232 to calculate the average.  
-
-The method can save much executive time than the SMRU algorithm run again.  
+The method can save much executive time than the SMRU algorithm run again,  
+because it only search the charger that the number of sensors be chargered is fewer than former.  
 
 
 ### SMRU Sink Node
