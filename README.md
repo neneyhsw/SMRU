@@ -42,6 +42,8 @@ This file compares to influence of mobility, and calculate average time and numb
 In terminal, you can see the information about before and after mobility.  
 In the file, it only run once. You can modify row 232 to calculate the average.  
 
+The method can save much executive time than the SMRU algorithm run again.  
+
 
 ### SMRU Sink Node
 In SMRU_Sink.py, we can calculate how much power the sink node need.  
