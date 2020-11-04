@@ -4,13 +4,11 @@ import matplotlib.patches as mpatches
 from matplotlib.collections import PatchCollection
 import math
 import time
-#import cv2
 
 
 ######## function area ########
 def Swap(a, b):  # for shuffle array to result in the sequence of Charger_Points is random
     return b, a
-
 
 # convert Cartesian Coordinates to Polor Coordinates
 def Convert_to_Polor(cx, cy, px, py):
@@ -18,7 +16,6 @@ def Convert_to_Polor(cx, cy, px, py):
     theta = math.atan2(py-cy, px-cx) / math.pi*180  # convert to angle
     #print ("r =", r, "\ntheta =", theta)
     return r, theta
-
 
 # convert Theta to range(0, 359)
 def Theta_Conversion(polor_theta, open_angle_theta):
@@ -45,7 +42,6 @@ def Theta_Conversion(polor_theta, open_angle_theta):
 
     return polor_theta, start_arm, end_arm
 
-
 # distance between two points
 def Distance_between_two_points(point1_x, point1_y, point2_x, point2_y):
     distance = (((point2_x-point1_x)**2)+((point2_y-point1_y)**2)
@@ -54,7 +50,7 @@ def Distance_between_two_points(point1_x, point1_y, point2_x, point2_y):
 
 
 ######## parameter setting ########
-# initialize sensor array
+# initialize sensor array, this array can add number of sensors to 40
 Sensor = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0],
           [0, 0], [0, 0], [0, 0], [0, 0], [0, 0],
           [0, 0], [0, 0], [0, 0], [0, 0], [0, 0],
@@ -249,7 +245,6 @@ while(True):
         Charger_Point[i][4] = i+1
         Charger_Point[i][6] = -1
     #print("Charger_Point =", Charger_Point)
-    
 
 
     for i in range(100):  # do N times shuffle
@@ -536,7 +531,6 @@ while(True):
 
 
         print("Charger_Num =", Charger_Num, "\n")
-
 
         
         if (while_count_2 == 1):
